@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: larger;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+}
+
+.containerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 85vw;
+    height: 150px;
+    margin: 25px;
+
+    border: 2px solid black;
+    background-color: #bedead;
+}
+
+.instructionsbox {
+    text-align: center;
+
+    width: 85vw;
+
+    border: 2px solid black;
+    background-color: #0b5e55;
+    color: white;
+}
+
+.redbox {
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    font-weight: bolder;
+    font-size: larger;
+
+    border: 2px solid black;
+    background-color: red;
+}
+
+.bluebox {
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    font-weight: bolder;
+    font-size: larger;
+
+    border: 2px solid black;
+    background-color: dodgerblue;
+}
+
+.greenbox {
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    font-weight: bolder;
+    font-size: larger;
+
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+.whackybox {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin: 25px;
+    font-weight: bolder;
+    font-size: larger;
+
+    border: 2px solid black;
+    background-color: pink;
+    transform: rotate(20deg);
+}
+
+ul {
+    list-style-type: none;
+}

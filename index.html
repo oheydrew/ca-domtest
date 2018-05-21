@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Stuff</title>
+    <script defer src="/index.js"></script>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="maincontainer">
+
+        <div class="instructionsbox" id="instructionsBox">
+
+            <h1 id="heading">Document Object Model!</h1>
+
+            <p>Howdy folks! Here's a nice little playground for you to mess with. Have a look at the index.html, and take note of the difference between "classes", and "id's".</p>
+            <p>Remember: Classes are used in <strong>stylesheets</strong> to set <i>styles</i>. ID's are generally used by <strong>javascript</strong> to select, and manipulate the <i>element</i> they're assigned to.</p>
+            <p></p>
+            <p>Can you:</p>
+            <ul>
+                <li>Use <strong>document.getElementById</strong> to select the <i>spanTwo</i> ID?</li>
+                <li>Use <strong>object.innerText</strong> to change the text to what it should be?</li>
+                <li>Use <strong>object.style</strong> to fix the error I made in the third box's <i>backgroundColor</i>?</li>
+                <li>Change the colour of the whole lower container box?</li>
+            </ul>
+            <p>Finally, I've added a <i>.whackybox</i> class to the styles.css - Can you:</p>
+            <ul>
+                <li>Use <strong>object.className</strong> to make the <i>first box</i> <strong>whacky?</strong></li>
+            </ul>
+            <p>Have fun!</p>
+        </div>
+
+        <div class="containerbox" id="mainBox">
+    
+            <div class="bluebox" id="boxOne">
+                <span id="spanOne">
+                    Blue Box!
+                </span>    
+            </div>
+            
+            <div class="redbox" id="boxTwo">
+                <span id="spanTwo">
+                    Red Box!
+                </span>  
+            </div>
+            
+            <div class="greenbox" id="boxThree">
+                <span id="spanThree">
+                    Green Box!
+                </span>  
+            </div>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
